@@ -1,8 +1,13 @@
-2015-03-22T01:46:09.294389+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=b3f32525-d58d-4f42-a3dd-a979b085a6a4 fwd="108.18.246.157" dyno=web.1 connect=2ms service=12ms status=304 bytes=397
-2015-03-22T01:46:09.286120+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 01:46:09 +0000
-2015-03-22T01:46:09.290257+00:00 app[web.1]:   Rendered text template (0.0ms)
-2015-03-22T01:46:09.289699+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
-2015-03-22T01:46:09.290459+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+2015-03-22T02:11:54.508986+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 02:11:54 +0000
+2015-03-22T02:11:54.511348+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-03-22T02:11:54.511493+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=a60ae2a8-346d-4676-b211-c33367069a06 fwd="108.18.246.157" dyno=web.1 connect=1ms service=6ms status=304 bytes=397
+2015-03-22T02:11:54.510941+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-03-22T02:11:54.511497+00:00 app[web.1]: Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2015-03-22T02:11:54.508986+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 02:11:54 +0000
+2015-03-22T02:11:54.511348+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-03-22T02:11:54.511493+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=a60ae2a8-346d-4676-b211-c33367069a06 fwd="108.18.246.157" dyno=web.1 connect=1ms service=6ms status=304 bytes=397
+2015-03-22T02:11:54.510941+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-03-22T02:11:54.511497+00:00 app[web.1]: Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 2015-03-22T00:41:15.499530+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=c0fd6908-7fc2-447a-a6ed-3f8100674519 fwd="108.18.246.157" dyno=web.1 connect=0ms service=106ms status=200 bytes=480
 2015-03-22T00:41:15.650641+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=polar-crag-8469.herokuapp.com request_id=37ae9621-76b2-4435-826b-2bddb6054338 fwd="108.18.246.157" dyno=web.1 connect=1ms service=14ms status=200 bytes=228
 2015-03-22T01:44:12.932169+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=63b9a958-9f3c-4827-b48e-1fe046f8fa98 fwd="108.18.246.157" dyno=web.1 connect=2ms service=116ms status=200 bytes=480
@@ -11,43 +16,14 @@
 2015-03-22T01:45:05.897288+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=623324ea-7951-4aa6-ab1d-f422630c9fea fwd="108.18.246.157" dyno=web.1 connect=2ms service=12ms status=304 bytes=397
 2015-03-22T01:46:02.066848+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=1d4e2125-9a42-4b22-b99b-2a17da09e55c fwd="108.18.246.157" dyno=web.1 connect=2ms service=8ms status=304 bytes=397
 2015-03-22T01:46:09.294389+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=b3f32525-d58d-4f42-a3dd-a979b085a6a4 fwd="108.18.246.157" dyno=web.1 connect=2ms service=12ms status=304 bytes=397
-2015-03-22T00:38:33.616264+00:00 heroku[api]: Enable Logplex by vmanamino@gmail.com
-2015-03-22T00:38:33.616264+00:00 heroku[api]: Release v2 created by vmanamino@gmail.com
-2015-03-22T00:40:13.198463+00:00 heroku[api]: Release v3 created by vmanamino@gmail.com
-2015-03-22T00:40:13.198463+00:00 heroku[api]: Set LANG, RAILS_ENV, RACK_ENV, SECRET_KEY_BASE, RAILS_SERVE_STATIC_FILES config vars by vmanamino@gmail.com
-2015-03-22T00:40:13.792678+00:00 heroku[api]: Set DATABASE_URL config vars by vmanamino@gmail.com
-2015-03-22T00:40:13.792678+00:00 heroku[api]: Release v4 created by vmanamino@gmail.com
-2015-03-22T00:40:13.913517+00:00 heroku[api]: Attach HEROKU_POSTGRESQL_IVORY resource by vmanamino@gmail.com
-2015-03-22T00:40:13.913517+00:00 heroku[api]: Release v5 created by vmanamino@gmail.com
-2015-03-22T00:40:14.271704+00:00 heroku[api]: Scale to web=1 by vmanamino@gmail.com
-2015-03-22T00:40:14.326970+00:00 heroku[api]: Deploy 178131c by vmanamino@gmail.com
-2015-03-22T00:40:14.327026+00:00 heroku[api]: Release v6 created by vmanamino@gmail.com
-2015-03-22T00:40:18.384236+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 48039 -e production`
-2015-03-22T00:40:22.893541+00:00 heroku[web.1]: State changed from starting to up
-2015-03-22T00:41:15.499530+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=c0fd6908-7fc2-447a-a6ed-3f8100674519 fwd="108.18.246.157" dyno=web.1 connect=0ms service=106ms status=200 bytes=480
-2015-03-22T00:41:15.650641+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=polar-crag-8469.herokuapp.com request_id=37ae9621-76b2-4435-826b-2bddb6054338 fwd="108.18.246.157" dyno=web.1 connect=1ms service=14ms status=200 bytes=228
-2015-03-22T01:44:12.932169+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=63b9a958-9f3c-4827-b48e-1fe046f8fa98 fwd="108.18.246.157" dyno=web.1 connect=2ms service=116ms status=200 bytes=480
-2015-03-22T01:44:13.466660+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=polar-crag-8469.herokuapp.com request_id=ffd01e9e-b56d-4a82-acb1-94ea1c66a58f fwd="108.18.246.157" dyno=web.1 connect=2ms service=16ms status=200 bytes=228
-2015-03-22T01:44:58.425843+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=1ff6bce7-1c91-4a9d-b27a-ea74e6bc01db fwd="108.18.246.157" dyno=web.1 connect=5ms service=6ms status=304 bytes=397
-2015-03-22T01:45:05.897288+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=623324ea-7951-4aa6-ab1d-f422630c9fea fwd="108.18.246.157" dyno=web.1 connect=2ms service=12ms status=304 bytes=397
-2015-03-22T01:46:02.066848+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=1d4e2125-9a42-4b22-b99b-2a17da09e55c fwd="108.18.246.157" dyno=web.1 connect=2ms service=8ms status=304 bytes=397
-2015-03-22T01:46:09.294389+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=b3f32525-d58d-4f42-a3dd-a979b085a6a4 fwd="108.18.246.157" dyno=web.1 connect=2ms service=12ms status=304 bytes=397
-2015-03-22T00:38:33.616264+00:00 heroku[api]: Enable Logplex by vmanamino@gmail.com
-2015-03-22T00:38:33.616264+00:00 heroku[api]: Release v2 created by vmanamino@gmail.com
-2015-03-22T00:40:13.198463+00:00 heroku[api]: Release v3 created by vmanamino@gmail.com
-2015-03-22T00:40:13.198463+00:00 heroku[api]: Set LANG, RAILS_ENV, RACK_ENV, SECRET_KEY_BASE, RAILS_SERVE_STATIC_FILES config vars by vmanamino@gmail.com
-2015-03-22T00:40:13.792678+00:00 heroku[api]: Set DATABASE_URL config vars by vmanamino@gmail.com
-2015-03-22T00:40:13.792678+00:00 heroku[api]: Release v4 created by vmanamino@gmail.com
-2015-03-22T00:40:13.913517+00:00 heroku[api]: Attach HEROKU_POSTGRESQL_IVORY resource by vmanamino@gmail.com
-2015-03-22T00:40:13.913517+00:00 heroku[api]: Release v5 created by vmanamino@gmail.com
-2015-03-22T00:40:14.271704+00:00 heroku[api]: Scale to web=1 by vmanamino@gmail.com
-2015-03-22T00:40:14.326970+00:00 heroku[api]: Deploy 178131c by vmanamino@gmail.com
-2015-03-22T00:40:14.327026+00:00 heroku[api]: Release v6 created by vmanamino@gmail.com
-2015-03-22T00:40:18.384236+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 48039 -e production`
+2015-03-22T02:10:49.001407+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=72cd8251-82a3-4cf9-9e96-86d4d797a904 fwd="108.18.246.157" dyno=web.1 connect=2ms service=6ms status=304 bytes=397
+2015-03-22T02:10:49.055549+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=polar-crag-8469.herokuapp.com request_id=8506d01a-132a-43dc-957f-abdde863681d fwd="108.18.246.157" dyno=web.1 connect=0ms service=3ms status=304 bytes=133
+2015-03-22T02:10:53.211040+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=f0a2013b-dd68-48dd-8842-15bf57cfb1f5 fwd="108.18.246.157" dyno=web.1 connect=1ms service=6ms status=304 bytes=397
+2015-03-22T02:11:52.573809+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=004eb757-426c-4083-8b82-907bc8fa343a fwd="108.18.246.157" dyno=web.1 connect=1ms service=6ms status=304 bytes=397
+2015-03-22T02:11:54.511493+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=a60ae2a8-346d-4676-b211-c33367069a06 fwd="108.18.246.157" dyno=web.1 connect=1ms service=6ms status=304 bytes=397
 2015-03-22T00:40:22.403239+00:00 app[web.1]: [2015-03-22 00:40:22] INFO  WEBrick 1.3.1
 2015-03-22T00:40:22.403259+00:00 app[web.1]: [2015-03-22 00:40:22] INFO  ruby 2.0.0 (2014-11-13) [x86_64-linux]
 2015-03-22T00:40:22.403558+00:00 app[web.1]: [2015-03-22 00:40:22] INFO  WEBrick::HTTPServer#start: pid=3 port=48039
-2015-03-22T00:40:22.893541+00:00 heroku[web.1]: State changed from starting to up
 2015-03-22T00:41:15.400180+00:00 app[web.1]: => Ctrl-C to shutdown server
 2015-03-22T00:41:15.400160+00:00 app[web.1]: => Booting WEBrick
 2015-03-22T00:41:15.491300+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
@@ -55,46 +31,43 @@
 2015-03-22T00:41:15.499825+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.0ms)
 2015-03-22T00:41:15.400179+00:00 app[web.1]: => Run `rails server -h` for more startup options
 2015-03-22T00:41:15.400182+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 00:41:15 +0000
-2015-03-22T00:41:15.499530+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=c0fd6908-7fc2-447a-a6ed-3f8100674519 fwd="108.18.246.157" dyno=web.1 connect=0ms service=106ms status=200 bytes=480
 2015-03-22T00:41:15.499555+00:00 app[web.1]:   Rendered text template (0.0ms)
-2015-03-22T00:41:15.650641+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=polar-crag-8469.herokuapp.com request_id=37ae9621-76b2-4435-826b-2bddb6054338 fwd="108.18.246.157" dyno=web.1 connect=1ms service=14ms status=200 bytes=228
-2015-03-22T01:44:12.932169+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=63b9a958-9f3c-4827-b48e-1fe046f8fa98 fwd="108.18.246.157" dyno=web.1 connect=2ms service=116ms status=200 bytes=480
 2015-03-22T01:44:12.869502+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 01:44:12 +0000
 2015-03-22T01:44:12.907903+00:00 app[web.1]:   Rendered text template (0.0ms)
 2015-03-22T01:44:12.893119+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
 2015-03-22T01:44:12.908150+00:00 app[web.1]: Completed 200 OK in 15ms (Views: 7.2ms | ActiveRecord: 0.0ms)
-2015-03-22T01:44:13.466660+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=polar-crag-8469.herokuapp.com request_id=ffd01e9e-b56d-4a82-acb1-94ea1c66a58f fwd="108.18.246.157" dyno=web.1 connect=2ms service=16ms status=200 bytes=228
-2015-03-22T01:44:58.425843+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=1ff6bce7-1c91-4a9d-b27a-ea74e6bc01db fwd="108.18.246.157" dyno=web.1 connect=5ms service=6ms status=304 bytes=397
 2015-03-22T01:44:58.422624+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
 2015-03-22T01:44:58.423167+00:00 app[web.1]: Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 2015-03-22T01:44:58.420819+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 01:44:58 +0000
 2015-03-22T01:44:58.423028+00:00 app[web.1]:   Rendered text template (0.0ms)
-2015-03-22T01:45:05.897288+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=623324ea-7951-4aa6-ab1d-f422630c9fea fwd="108.18.246.157" dyno=web.1 connect=2ms service=12ms status=304 bytes=397
 2015-03-22T01:45:05.888539+00:00 app[web.1]:   Rendered text template (0.0ms)
 2015-03-22T01:45:05.886212+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 01:45:05 +0000
 2015-03-22T01:45:05.888088+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
 2015-03-22T01:45:05.888703+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
-2015-03-22T01:46:02.066848+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=1d4e2125-9a42-4b22-b99b-2a17da09e55c fwd="108.18.246.157" dyno=web.1 connect=2ms service=8ms status=304 bytes=397
 2015-03-22T01:46:02.062326+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 2015-03-22T01:46:02.061770+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
 2015-03-22T01:46:02.062176+00:00 app[web.1]:   Rendered text template (0.0ms)
 2015-03-22T01:46:02.059649+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 01:46:02 +0000
-2015-03-22T01:46:09.294389+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=b3f32525-d58d-4f42-a3dd-a979b085a6a4 fwd="108.18.246.157" dyno=web.1 connect=2ms service=12ms status=304 bytes=397
 2015-03-22T01:46:09.286120+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 01:46:09 +0000
 2015-03-22T01:46:09.290257+00:00 app[web.1]:   Rendered text template (0.0ms)
 2015-03-22T01:46:09.289699+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
 2015-03-22T01:46:09.290459+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
-2015-03-22T02:10:49.001407+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=72cd8251-82a3-4cf9-9e96-86d4d797a904 fwd="108.18.246.157" dyno=web.1 connect=2ms service=6ms status=304 bytes=397
-2015-03-22T02:10:49.055549+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=polar-crag-8469.herokuapp.com request_id=8506d01a-132a-43dc-957f-abdde863681d fwd="108.18.246.157" dyno=web.1 connect=0ms service=3ms status=304 bytes=133
-2015-03-22T02:10:48.999924+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
 2015-03-22T02:10:48.998032+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 02:10:48 +0000
-2015-03-22T02:10:49.000341+00:00 app[web.1]:   Rendered text template (0.0ms)
 2015-03-22T02:10:49.000472+00:00 app[web.1]: Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
-2015-03-22T02:10:53.211040+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=f0a2013b-dd68-48dd-8842-15bf57cfb1f5 fwd="108.18.246.157" dyno=web.1 connect=1ms service=6ms status=304 bytes=397
-2015-03-22T02:10:53.207391+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 02:10:53 +0000
-2015-03-22T02:10:53.209700+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-03-22T02:10:49.000341+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-03-22T02:10:48.999924+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
 2015-03-22T02:10:53.209278+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
 2015-03-22T02:10:53.209855+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2015-03-22T02:10:53.209700+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-03-22T02:10:53.207391+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 02:10:53 +0000
+2015-03-22T02:11:52.573105+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-03-22T02:11:52.570892+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 02:11:52 +0000
+2015-03-22T02:11:52.572702+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-03-22T02:11:52.573247+00:00 app[web.1]: Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2015-03-22T02:11:54.508986+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 02:11:54 +0000
+2015-03-22T02:11:54.511348+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-03-22T02:11:54.510941+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-03-22T02:11:54.511497+00:00 app[web.1]: Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 2015-03-22T00:38:33.616264+00:00 heroku[api]: Enable Logplex by vmanamino@gmail.com
 2015-03-22T00:38:33.616264+00:00 heroku[api]: Release v2 created by vmanamino@gmail.com
 2015-03-22T00:40:13.198463+00:00 heroku[api]: Release v3 created by vmanamino@gmail.com
@@ -159,8 +132,8 @@
 2015-03-22T02:10:53.209700+00:00 app[web.1]:   Rendered text template (0.0ms)
 2015-03-22T02:10:53.207391+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 02:10:53 +0000
 2015-03-22T02:11:52.573809+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=004eb757-426c-4083-8b82-907bc8fa343a fwd="108.18.246.157" dyno=web.1 connect=1ms service=6ms status=304 bytes=397
-2015-03-22T02:11:52.570892+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 02:11:52 +0000
 2015-03-22T02:11:52.573105+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-03-22T02:11:52.570892+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 02:11:52 +0000
 2015-03-22T02:11:52.572702+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
 2015-03-22T02:11:52.573247+00:00 app[web.1]: Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 2015-03-22T02:11:54.508986+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 02:11:54 +0000
@@ -168,3 +141,9 @@
 2015-03-22T02:11:54.511493+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=a60ae2a8-346d-4676-b211-c33367069a06 fwd="108.18.246.157" dyno=web.1 connect=1ms service=6ms status=304 bytes=397
 2015-03-22T02:11:54.510941+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
 2015-03-22T02:11:54.511497+00:00 app[web.1]: Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2015-03-22T02:32:42.541083+00:00 heroku[router]: at=info method=GET path="/" host=polar-crag-8469.herokuapp.com request_id=0ac87b43-e5ba-4b8d-8cc9-9e391c134c3c fwd="108.18.246.157" dyno=web.1 connect=1ms service=6ms status=304 bytes=397
+2015-03-22T02:32:42.535334+00:00 app[web.1]: Started GET "/" for 108.18.246.157 at 2015-03-22 02:32:42 +0000
+2015-03-22T02:32:42.537793+00:00 app[web.1]:   Rendered text template (0.0ms)
+2015-03-22T02:32:42.537294+00:00 app[web.1]: Processing by ApplicationController#hello as HTML
+2015-03-22T02:32:42.537952+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+2015-03-22T02:32:42.588973+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=polar-crag-8469.herokuapp.com request_id=e7ebcf9c-74d9-4f05-9441-cfc2587e5f6a fwd="108.18.246.157" dyno=web.1 connect=0ms service=3ms status=304 bytes=133
